@@ -1,0 +1,404 @@
+.secondlist
+{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.secbtn
+{
+    padding: 7px 9px;
+    margin-right: 70px;
+    background-color: #54B564;
+    color: white;
+    font-weight: 550;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container
+{
+    display: flex;
+    width: 100%;
+}
+
+
+.sidefilter
+{
+    width: 20%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 0px 20px;
+}
+
+.mainfilter
+{
+    width: 80%;
+    padding: 10px 40px;
+}
+.clrbtn
+{
+    margin-top: 15px;
+    padding: 5px 9px;
+    background-color: #54B564;
+    color: white;
+    font-weight: 550;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/***************************************************************************/
+
+.Maincont
+{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.subcontainer
+{    
+  flex-direction: row;
+  margin:0 auto; 
+}
+
+.containerHead
+{
+    margin-left: 20px;
+}
+
+
+.productbox
+{
+    background-color:white;
+    height:420px;
+    width: 250px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 0 12px;
+    padding-top: 10px;
+    position: relative;
+}
+.imgplace
+{
+    height:240px;
+    position: relative;
+}
+.displace
+{
+    height: 110px;
+   
+}
+
+.ratingsview
+{
+   font-size: 13px;
+   margin-left:5px;
+   opacity: 0.7;
+   font-weight: 600;
+}
+
+.descriptionview
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+
+.Ratingpoint
+{
+    background-color: #54B564;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 6px;
+    font-weight: 550;
+    font-size: 12px;    
+}
+ .productbox:hover
+{
+    transform: scale(1.1);
+    z-index:1;
+} 
+
+.priceview
+{
+   display: flex;
+   margin-top: 10px;
+   height: 20px;
+} 
+
+.Oldpriceview
+{
+    opacity: 0.5;
+    font-weight: 600;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.Newpriceview
+{
+   margin-left: 8px; 
+   font-size: 13px;
+   font-weight: 600;
+}
+.Offerview
+{
+    position: absolute;
+    background-color: white;
+    border: none;
+    color: #54B564;
+    font-weight: 600;
+    font-size: 12px;
+    right:15px;
+}   
+
+.containerimgs
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.buynowbtn
+{
+    background-color: #54B564;
+    width: 225px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+@media (max-width:1024px)
+{
+    .Maincont
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.containerHead
+{
+    font-size: 22px;
+}
+
+.productbox
+{
+   
+    height:280px;
+    width: 160px;
+    margin: 10px;
+    padding: 0 8px;
+}
+
+.Offerview
+{
+  font-size: 11px;
+}
+.containerimgs
+{
+    height:100px;
+    max-width: 130px;
+    margin-top: 10px;
+}
+.desheight
+{
+  height: 35px;  
+}
+
+.descriptionview
+{
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.priceview
+{
+   margin-top: 28px;
+} 
+
+.Oldpriceview
+{
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.Newpriceview
+{
+   margin-left: 4px; 
+   font-size: 10px;
+    font-weight: 600;
+}
+
+.Ratingview
+{   
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.Ratingpoint
+{
+    padding:1px 3px;
+    font-size: 10px;    
+}
+
+.buynowbtn
+{
+    padding: 3px 40px;
+}
+
+
+}
+
+
+/*****************************768px*******************/
+@media (max-width:768px)
+{
+    .Maincont
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.containerHead
+{
+    font-size: 15px;
+}
+
+.productbox
+{
+    height:240px;
+    width: 120px;
+    margin: 8px;
+    padding: 0 8px;
+}
+
+.Offerview
+{
+  font-size: 9px;
+}
+.containerimgs
+{
+    height:70px;
+    max-width: 110px;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.desheight
+{
+  height: 35px;  
+}
+
+.descriptionview
+{
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.priceview
+{
+   margin-top: 28px;
+   display: grid;
+} 
+
+.Oldpriceview
+{
+    font-weight: 500;
+    font-size: 10px;
+
+}
+
+.Newpriceview
+{   
+   font-size: 10px;
+   font-weight: 600;
+   margin-left: 0px;
+}
+
+.Ratingview
+{   
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.Ratingpoint
+{
+    padding:1px 3px;
+    font-size: 10px;    
+}
+
+.buynowbtn
+{
+    padding: 3px 20px;
+    font-size: 13px;
+}
+
+
+}
+
+
+
+/*************************Showmorebtnplace**************************/
+
+.Showmorebtnplace
+{
+    text-align: center;
+    height: 70px;
+
+}
+.Showmorebtn
+{
+    background-color: #3d155f;
+    color: white;
+    border: none;
+    padding:15px 35px;
+    cursor: pointer;
+    font-weight: 550;
+    border-radius: 5px;
+}
+.showbtnhide
+{
+    display: block;
+}
+
+@media (max-width:1024px){
+
+    .Showmorebtnplace
+    {
+        height: 50px;    
+    }
+    .Showmorebtn
+{
+   
+    padding:8px 15px;
+    font-weight: 550;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+    
+}

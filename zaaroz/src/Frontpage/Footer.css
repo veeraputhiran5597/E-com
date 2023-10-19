@@ -1,0 +1,159 @@
+.Footerpage
+{
+    background-color: #df678c;
+    height: 280px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    opacity: 0.9;
+    display: flex;
+}
+.footercontainers
+{
+    width: 25%;
+}
+
+.Footcompname
+{
+    color: white;
+}
+.Footername
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+.firstlerttefooter
+{
+    color: #3d155f;
+}
+.Address
+{
+    color: white;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.Footerimgsize
+{
+    width: 300px;
+    height: 270px;
+}
+
+@media (max-width:1024px){
+
+    .Footerpage
+{
+    height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.Footcompname
+{
+    font-size:25px;
+}
+.Footername
+{
+    font-size: 20px;
+}
+
+.Address
+{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.Footername
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Footerimgsize
+{
+    width: 200px;
+    height: 190px;
+}
+}
+
+/******************768px********************/
+
+@media (max-width:768px){
+
+    .Footerpage
+{
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.Footcompname
+{
+    font-size:20px;
+}
+.Footername
+{
+    font-size: 15px;
+}
+
+.Address
+{
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.Footername
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Footerimgsize
+{
+    width: 170px;
+    height: 130px;
+}
+}
+
+
+/*******************376px*******************/
+@media (max-width:376px){
+
+    .Footerpage
+{
+    height: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.Footcompname
+{
+    font-size:12px;
+}
+
+.Address
+{
+    font-size: 6px;
+    margin-top: 3px;
+}
+
+.Footername
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.Footerimgsize
+{
+    width: 90px;
+    height: 80px;
+}
+}

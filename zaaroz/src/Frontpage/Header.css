@@ -1,0 +1,500 @@
+.Firstheader{
+    background-color:#3d155f;
+    /* background-color:#df678c; */
+    height: 70px;
+    width: 100%;   
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.headerplace
+{
+    display: flex;
+    align-items: center;
+}
+
+.headImg
+{
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 3px;
+}
+
+
+.Comname
+{   
+   
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 70px;
+   
+   
+}
+.firstlertte
+{
+    color: #df678c;
+}
+.searchbardiv
+{
+    position: relative;
+}
+.searchbox
+{
+ margin-left: 70px;
+ width: 500px;
+ height: 40px; 
+
+}
+.serchicon
+{
+    position: absolute;
+    top: 8px;
+    left: 480px;
+    color: #3d155f;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.schicon
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.loginbtn
+{  
+    color:white; 
+    cursor: pointer;
+    display: flex;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #df678c;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.offerbtn
+{  
+    color:white; 
+    cursor: pointer;
+    display: flex;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #df678c;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.cartbtn
+{  
+    color:white; 
+    cursor: pointer;
+    display: flex;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #df678c;
+    margin-left: 50px;
+    align-items: center;
+}
+
+
+/*********************************************/
+
+.Searchplace
+{   
+    position: absolute;
+    border: none;
+    z-index:7px;
+    background-color:white;
+    left: 442px;
+    width:499px;
+    height:255px;
+    overflow:auto;
+    padding-left:5px;
+}
+
+.seachitemplace
+{  
+    padding: 3px;
+    cursor: pointer;
+    display: flex;
+}
+.searimgplace
+{
+    width:50px;
+    text-align: center;
+    padding-top:5px;
+}
+.searmainname
+{
+  font-size: 16px;
+  font-weight:550;
+}
+.searsubname
+{
+  font-size:13px;
+  color: #3d155f;
+  font-weight:600;
+}
+
+
+/*****************************************/
+
+.modalcontainer
+{
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.logpageclsbtn
+{
+    position: absolute;
+    right:6px;
+    top:8px;
+    background-color:rgba(0,0,0,0.1);
+    color: white;
+    cursor: pointer;
+}
+
+.model
+{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: 30em;
+}
+
+.Newculetter
+{
+    width:40%;
+}
+.Signletter
+{
+    width:60%;
+    cursor: pointer;
+}
+.Moblletter
+{
+    width:40%;
+    font-size:16px;
+    font-weight:550;
+}
+
+
+.moblinput
+{
+    height:25px;
+    width:200px;
+}
+
+.Addressin   
+{
+    height:40px;
+    width:200px;
+}
+.Submitbtn
+{
+    margin-top:10px;
+    background-color: #3d155f;
+    color:white;
+    padding:5px 80px 5px 80px;
+    border:none;
+    font-size:16px;
+    margin-left:168px;
+}
+
+.signupbtn
+{
+    margin-top:10px;
+    background-color: #3d155f;
+    color:white;
+    padding:5px 75px 5px 75px;
+    border:none;
+    font-size:16px;
+    margin-left:168px;
+}
+
+.dropbtn
+{
+    color:white; 
+    cursor: pointer;
+    display: flex;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #df678c;
+    margin-left: 50px;
+    align-items: center;  
+}
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    right:0;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .dropdown-content a:hover {background-color:#df678c;color:white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#3d155f;}
+
+/* .hovbtn
+{
+    position: absolute;
+    color:#3d155f;
+    background-color:white;
+    height: 100px;
+    width: 140px;
+    top:35px;
+    left:25px;
+    display:none;
+}
+
+.dropdown-logbtns
+{
+    width:100%;
+    cursor: pointer;
+    display: flex;
+    height:50px;
+    text-align: center;
+    padding:10px;
+    border-top:1px solid #df678c;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dropbtn:hover.hovbtn{display:block;} */
+
+
+
+/*Respansive*/
+
+@media (max-width:1024px) {
+
+.Firstheader
+{
+width: 100%;
+height: 60px;
+}
+.headImg
+{
+ margin-left: 30px;
+ width: 100px;
+ height: 50px;
+}
+
+.Comname
+{   
+ font-size: 25px;
+ margin-left: 25px;
+}
+
+.searchbox
+{
+ margin-left: 25px;
+ width: 300px;
+ height: 35px;
+}
+
+.serchicon
+{
+ left: 240px;
+ top: 5px;
+}
+
+.loginbtn
+{ 
+    padding: 3px 20px;
+    font-size: 15px;
+    margin-left: 25px;
+    
+}
+
+.offerbtn
+{  
+    padding: 3px 20px;
+    font-size: 15px;
+    margin-left: 25px;  
+}
+
+.cartbtn
+{  
+    padding: 3px 20px;
+    font-size: 15px;
+    margin-left: 25px;  
+}
+
+   
+}
+
+
+
+/******************************768px***********************/
+
+
+@media (max-width:768px) {
+
+    .Firstheader
+    {
+    width: 100%;
+    height: 50px;
+    padding-top: 6px;
+    }
+    .headImg
+    {
+     margin-left: 12px;
+     width: 70px;
+     height: 30px;
+    }
+    
+    .Comname
+    {   
+     font-size: 22px;
+     margin-left: 12px;
+    }
+    
+    .searchbox
+    {
+     margin-left: 12px;
+     width: 250px;
+     height: 30px;
+    }
+    
+    .serchicon
+    {
+     left: 180px;
+     top: 3px;
+    }
+
+    .schicon
+    {
+        height: 17px;
+        width: 17px;
+    }
+    
+    .loginbtn
+    { 
+        padding: 2px 15px;
+        font-size: 15px;
+        margin-left: 12px;
+        
+    }
+    
+    .offerbtn
+    {  
+        padding: 2px 15px;
+        font-size: 15px;
+        margin-left: 12px;  
+    }
+    
+    .cartbtn
+    {  
+        padding: 2px 15px;
+        font-size: 15px;
+        margin-left: 12px;  
+    }
+    
+       
+    }
+
+/***********************376px*****************/
+@media (max-width:376px) {
+
+    .Firstheader
+    {
+    width: 100%;
+    height: 43px;
+    padding-top: 6px;
+    }
+    .headImg
+    {
+     margin-left: 10px;
+     width: 45px;
+     height: 25px;
+     border-radius: 0px;
+    }
+    
+    .Comname
+    {   
+     font-size: 14px;
+     margin-left: 10px;
+    }
+    
+    .searchbox
+    {
+     margin-left:10px;
+     width: 110px;
+     height: 22px;
+    }
+    
+    .serchicon
+    {
+     left: 100px;
+     top: 7px;
+     font-size: 10px;
+    }
+    .schicon
+    {
+        height: 12px;
+        width: 12px;
+    }
+    .schname
+    {
+       display: none;
+    }
+
+    .loginbtn
+    { 
+        padding: 0px 5px;
+        font-size: 11px;
+        margin-left:10px;      
+    }
+
+    
+    .offerbtn
+    {  
+        display: none;
+    }
+    
+    .cartbtn
+    {  
+        padding: 0px 5px;
+        font-size: 11px;
+        margin-left: 8px;  
+    }
+    
+       
+    }

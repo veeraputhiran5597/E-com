@@ -1,0 +1,40 @@
+.banerimagessize
+{
+   height: 50vh;
+    width: 100%;
+   cursor: pointer;   
+}
+
+.slick-arrow.slick-prev
+{
+    background-color:white;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    height: 120px;
+    width: 60px;
+}
+.slick-arrow.slick-next{
+    background-color:white;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    height: 120px;
+    width: 60px;
+}
+
+.slick-arrow.slick-prev:hover,
+.slick-arrow.slick-next:hover
+{
+    background-color: white;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color:black !important;
+    height: 100px; 
+}
